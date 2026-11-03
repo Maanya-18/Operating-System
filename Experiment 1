@@ -1,16 +1,24 @@
 *EXP. No. 1*
 
-*Experiment 1: Installation of Virtual Box and Ubuntu Os*
+*Experiment 1: BASIC BASH MANAGEMENT *
 
-*Procedure*
-1) Download Virtual Box from its official website
-2) Run the installer and follow the setup wizard
-3) Click install and complete the installation
-4) Download the ubuntu ISO file
-5) Open Virtual Box and Click new
-6) Create a Vm, name it and select Iso file
-7) Allocate RAM, CPU and storage
-8) Start the virtual Machine and select install
-9) Follow the on screen instructions
-10) Create a username and password
-11) Complete the installation and restart the virtual machine
+*Theory*
+
+Command :	Use
+pwd:	Shows current directory
+ls:   Lists files and folders
+ls -l: Shows detailed list
+ls -a	: Shows hidden files
+ls -lh	: Shows file sizes in readable format
+cd:  folder	Enters a folder
+cd ..	: Goes one directory back
+cd ../..	:Goes two directories back
+cd ~: Goes to home directory
+cd /	: Goes to root directory
+cd -	: Goes to previous directory
+mkdir demo	:Creates directory
+mkdir -p a/b:	Creates nested directories
+rmdir demo:	Removes empty directory
+rm -r demo:	Removes directory and contents
+cp -r a b: Copies a directory
+tree:	Displays directory structure
